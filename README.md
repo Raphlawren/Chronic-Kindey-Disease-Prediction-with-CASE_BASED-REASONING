@@ -50,19 +50,14 @@ Data was split into **70% train / 30% test** with **stratified sampling** to pre
 ## Results
 
 ### 1) CKD_Progression (Binary)
-- Trained for **300 epochs** to learn feature weights. 
-- **Test Accuracy:** **84%**  
+- Trained for **200 epochs** to learn feature weights. 
+- **Test Accuracy:** **86%**  
 - **ROC-AUC:** **0.87** 
 - Note: the dataset is imbalanced (around **80.3%** “not progressing” vs **19.7%** “progressing”). 
 
 ### 2) CKD_Stage (Multiclass)
-- Over **300 epochs**, training accuracy improved from **57% → 70%** (loss decreased).  
-- Top learned feature weights included:
-  - Sex (4.34)
-  - Occult_Blood_in_Urine (3.00)
-  - BMI (1.44)
-  - Creatinine (1.43)
-  - Hemoglobin (1.22) 
+- **300 epochs**, training accuracy improved from **57% → 70%** (loss decreased).  
+
 
 ---
 
