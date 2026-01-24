@@ -1,5 +1,7 @@
 # Chronic Kidney Disease Prediction with Case-Based Reasoning (CBR)
 
+The vectorized_CBR is the vectorized version and easy to implement and understand: [link](https://github.com/Raphlawren/Chronic-Kindey-Disease-Prediction-with-CASE_BASED-REASONING/blob/main/Vectorized_CBR.ipynb).
+
 This repository contains my COM804 project on predicting **Chronic Kidney Disease (CKD)** outcomes using a custom **Case-Based Reasoning (CBR)** system in Python. The dataset has **1,138 patient cases** and **23 features**, with two targets:
 - **CKD_Progression** (binary: progressing vs not progressing)
 - **CKD_Stage** (multiclass: stages 2–5)
